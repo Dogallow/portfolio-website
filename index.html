@@ -49,47 +49,50 @@
 
 
     <section id="top" class = "h-screen w-28 grid  grid-cols-3 w-full">
+
+        
+        
         <div class="col-span-3 text-center mt-40">
             <h1 class="text-2xl ">Skills</h1>
         </div>
 
-        <div>
+        <div class="flex items-center">
             <div class=mx-20>
                 <h2 class="text-center">HTML</h2>
-                <img src="./images/htmlLogo.png">
+                <img class="" src="./images/htmlLogo.png">
             </div>
         </div>
-        <div>
-            <div class="mx-20">
+        <div class="flex items-center">
+            <div class="mx-20 items-end">
                 <h2 class="text-center">CSS</h2>
                 <img src="./images/cssLogo.png">
             </div>
         </div>
-        <div>
+        <div class="flex items-center">
             <div class="mx-20">
                 <h2 class="text-center">Javascript</h2>
-                <img src="./images/jsLogo.png">
+                <img src="./images/jsLogo.png" class="h-60">
             </div>
         </div>
-        <div>
+        <div class="flex items-center">
             <div class="mx-20">
                 <h2 class="text-center">React</h2>
                 <img src="./images/react Logo.png">
             </div>
         </div>
-        <div>
+        <div class="flex items-center">
             <div class="mx-20">
                 <h2 class="text-center">Node</h2>
                 <img src="./images/nodeLogo.png">
             </div>
         </div>
-        <div>
+        <div class="flex items-center">
             <div class="mx-20">
                 <h2 class="text-center">MongoDb</h2>
                 <img src="./images/mongoLogo.png">
             </div>
         </div>
-        
+        <button class="  border-4 hover:bg-slate-300 hover:text-white border-black bg-slate-500 col-start-2 col-end-2 font-bold">Resume</button>
     </section>
 
 
@@ -160,9 +163,30 @@
     
 
 
-    <section id="bottom" class="h-screen text-xl grid items-center justify-center">
-        below the page text (scroll text)
-        where it go?
+    <section id="bottom" class="h-screen text-xl flex flex-col items-center justify-center">
+
+       
+        
+        <a href="https://github.com/dogallow" target="_blank">
+                <img src="./images/githubLogo.png">
+            </a>
+    
+        <form class="w-1/2 bg-blue-200 p-20">
+            <div>
+                <label for="name-input">Name</label>
+                <br>
+                <input id="name-input">
+            </div>
+            <div>
+                <label for="email-input">E-mail</label>
+                <br>
+                <input id="email-input">
+            </div>
+            <br>
+            <div>
+                <textarea class="w-80 h-80"></textarea>
+            </div>
+        </form>
     </section>
 
 
